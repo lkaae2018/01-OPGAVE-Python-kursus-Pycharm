@@ -1,0 +1,16 @@
+type: edu
+files:
+- name: Standar_moduler.py
+  visible: true
+- name: tests/test_task.py
+  visible: false
+- name: __init__.py
+  visible: true
+- name: tests/__init__.py
+  visible: false
+- name: random_modul.py
+  visible: true
+- name: tid.py
+  visible: true
+- name: Matematikmodul.py
+  visible: true

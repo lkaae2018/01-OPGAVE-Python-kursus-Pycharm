@@ -1,0 +1,14 @@
+type: edu
+files:
+- name: Lyskrydsopg.py
+  visible: true
+- name: tests/test_task.py
+  visible: false
+- name: __init__.py
+  visible: true
+- name: tests/__init__.py
+  visible: false
+- name: tl.png
+  visible: true
+- name: Lyskryds_RPI.py
+  visible: true

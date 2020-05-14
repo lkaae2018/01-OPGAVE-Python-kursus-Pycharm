@@ -1,0 +1,12 @@
+type: edu
+files:
+- name: tests/test_task.py
+  visible: false
+- name: __init__.py
+  visible: false
+- name: tests/__init__.py
+  visible: false
+- name: Flowchart kald af funktion.jpg
+  visible: true
+- name: Funktionskald.py
+  visible: true

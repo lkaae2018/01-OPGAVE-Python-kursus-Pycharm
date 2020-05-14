@@ -1,0 +1,16 @@
+type: edu
+files:
+- name: Opgave.py
+  visible: true
+- name: tests/test_task.py
+  visible: false
+- name: __init__.py
+  visible: true
+- name: tests/__init__.py
+  visible: false
+- name: Opgave2.py
+  visible: true
+- name: Opgave3.py
+  visible: true
+- name: Opgave4.py
+  visible: true

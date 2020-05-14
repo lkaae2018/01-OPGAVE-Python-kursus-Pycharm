@@ -1,0 +1,17 @@
+type: edu
+files:
+- name: gæt_et_tal.py
+  visible: true
+  placeholders:
+  - offset: 530
+    length: 46
+    placeholder_text: Indtast et nyt tal
+  - offset: 650
+    length: 46
+    placeholder_text: Indtast et nyt tal
+- name: tests/test_task.py
+  visible: false
+- name: __init__.py
+  visible: false
+- name: tests/__init__.py
+  visible: false

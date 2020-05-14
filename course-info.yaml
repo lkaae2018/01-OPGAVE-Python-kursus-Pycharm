@@ -1,0 +1,19 @@
+title: DJH Python kursus Pycharm
+language: English
+summary: |-
+  Python kursus til Modul 2.1 2020
+  Created: Feb 25, 2020, 9:19:43 AM.
+programming_language: Python
+environment: unittest
+content:
+- Intro
+- Variabler
+- Strings
+- Opgaver
+- Betingelser
+- Loops
+- Funktioner
+- Moduler og pakker
+- Opgave 2
+- Statemachine
+- File_write

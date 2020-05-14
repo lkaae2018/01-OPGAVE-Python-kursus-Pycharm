@@ -1,0 +1,28 @@
+type: edu
+files:
+- name: tests/test_task.py
+  visible: false
+- name: __init__.py
+  visible: true
+- name: tests/__init__.py
+  visible: false
+- name: Effektberegner.py
+  visible: true
+- name: lkaae_modul.py
+  visible: true
+- name: Menu_program.py
+  visible: true
+- name: Ohmslov.py
+  visible: true
+- name: Regnemaskine.py
+  visible: true
+- name: Terning_spil.py
+  visible: true
+  placeholders:
+  - offset: 575
+    length: 446
+    placeholder_text: Skriv der restende program her!
+- name: Farver.py
+  visible: true
+- name: Help.py
+  visible: true

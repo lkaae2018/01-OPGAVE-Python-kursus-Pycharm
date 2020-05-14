@@ -1,0 +1,16 @@
+type: edu
+files:
+- name: for_loop.py
+  visible: true
+- name: tests/test_task.py
+  visible: false
+- name: __init__.py
+  visible: true
+- name: tests/__init__.py
+  visible: false
+- name: Eks1.py
+  visible: true
+- name: Eks2.py
+  visible: true
+- name: Eks3.py
+  visible: true

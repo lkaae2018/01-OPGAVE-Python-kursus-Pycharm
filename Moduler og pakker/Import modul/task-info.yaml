@@ -1,0 +1,14 @@
+type: edu
+files:
+- name: mit_modul.py
+  visible: true
+- name: tests/test_task.py
+  visible: false
+- name: __init__.py
+  visible: true
+- name: tests/__init__.py
+  visible: false
+- name: config.py
+  visible: true
+- name: emailsent.py
+  visible: true

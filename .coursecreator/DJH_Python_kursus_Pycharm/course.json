@@ -1,0 +1,1858 @@
+{
+  "id" : 69646,
+  "update_date" : "Apr 09, 2020 08:32:45 AM",
+  "title" : "DJH Python kursus Pycharm",
+  "items" : [
+    {
+      "id" : 337059,
+      "title" : "Intro",
+      "update_date" : "Apr 09, 2020 08:32:49 AM",
+      "task_list" : [
+        {
+          "name" : "Hello world",
+          "stepic_id" : 1215124,
+          "update_date" : "Apr 09, 2020 08:32:51 AM",
+          "files" : {
+            "Hello_world.py" : {
+              "name" : "Hello_world.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "print(\"Hallo, mit navn er     \")\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Hello_world import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>Det skal nye programmøere skriv før de er klar til starte med at lære at programmere.</p>\n\n</ul>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Kommentar",
+          "stepic_id" : 1215125,
+          "update_date" : "Apr 09, 2020 08:32:52 AM",
+          "files" : {
+            "Kommentar.py" : {
+              "name" : "Kommentar.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "# Dette er en kommentar i Python filen Kommentar.py.\nprint(\"Denne line bliver printet på skærmen\") # Dete er kommentar efter noget kode.\n# Endnu en kommentar.\nprint(\"Skriv en kommentar efter denne line!!\")\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Kommentar import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>Ved at sætte # ind, bliver teksten efter ikke oversat.</p>\n<p>Det er vigtigt at tilføje kommentar til sit program således andre bedre kan forstå hvad programmet virker!!!</p>\n<p>Tilføje en kommentar efter den sidste line i koden og oversat programmet.</p>\n</ul>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Input",
+          "stepic_id" : 1215126,
+          "update_date" : "Apr 09, 2020 08:32:53 AM",
+          "files" : {
+            "Input.py" : {
+              "name" : "Input.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "name = input(\"Hej, skriv dit navn?\")\n\nprint(\"Hej med dig\", name)\n\n# Indtast line med kommadoen input her!\n\n#print(\"Du er\",alder,\"år gamle\")\n\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Input import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>Med kommandoen <strong>input</strong> er det muligt at indtaste tekst og tal ind som programmet kan benytte til manipulere.</p>\n<p>Tilføj en line hvor du indtaster din alder og fjern # så din alder bliver udskrevet på sidste line.</p></ul>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Print smart",
+          "stepic_id" : 1215127,
+          "update_date" : "Apr 09, 2020 08:32:54 AM",
+          "files" : {
+            "printsmart.py" : {
+              "name" : "printsmart.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "print('''Dette\ner\nen \nsmart\nmåde\nat\nskrive til skærm på\n''')\nprint(\"Du kan også benytte \"\" til skrive tekst med\")\n\nprint('Dette'\n      ' er'\n      ' ikke')\n\n\n'''\nprint('Dette bliver ikke printet')\n'''\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..printsmart import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>Her ses hvordan man kan printe på konsolen på en smart måde!!</p>\n<p>Oversæt programmet og se hvad der sker.</p>\n</ul>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Opgave1",
+          "stepic_id" : 1215128,
+          "update_date" : "Apr 09, 2020 08:32:55 AM",
+          "files" : {
+            "Opgave1.py" : {
+              "name" : "Opgave1.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Opgave1 import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<p>Så er det tid til en opgave.<p/>\n\n<p>Skriv en program der kan følgende ting:<p/>\n\n<li>Udskriv en besked af eget valg\n<li>Tilføj # efter den ovenstående besked\n<li>Udskriv en multiline streng\n<li>Udskriv med 3 dobbelt \"\"\"\n<li>Benyt kommadoen input til at udskrive et indtastet tal mellem 1-100\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        }
+      ],
+      "unit_id" : 320523,
+      "type" : "lesson"
+    },
+    {
+      "id" : 337060,
+      "title" : "Variabler",
+      "update_date" : "Apr 09, 2020 08:32:57 AM",
+      "task_list" : [
+        {
+          "name" : "Variable definition",
+          "stepic_id" : 1215129,
+          "update_date" : "Apr 09, 2020 08:32:59 AM",
+          "files" : {
+            "Variable_definition.py" : {
+              "name" : "Variable_definition.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "number = 1234\nprint(number)\n\na = b = 2\nprint(\"a = \", a )\nprint(\"b = \", b )\n\ngreetings = \"Hej\"\nprint(\"Hej = \", greetings)\ngreetings =  2\nprint(\"Hej = \", greetings)\n\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Variable_definition import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>Nu skal vi til at se på hvad en variable er?</p>\n<p>Når man skriver et program er det en godt ide at oprette variabler.</p>\n<p>I et program sker det ofte at der referes til en bestemt variable. For at ungå at skrive det samme tal/ord flere gang referer man til en variable.\n</p>\n<p>Til referer til en variable benytte <strong>\"=\"</strong>. Se nedenfor!</p>\n<p>Navn = \"Lasse Kaae\"</p>\n<p>Nu kan man skrive print(Navn) også vil der stå Lasse Kaae på skræmen.</p>\n<P>I Python er muligt at skift variablen fra tekst til tal uden at oversætteren melder fejl!!!</P>\n<p> Andre programmeringssporg skal variablerne fastsættes i starten programmet og derefter kan de ikke ændres.</p>\n</ul>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Udefinerede_variabler",
+          "stepic_id" : 1215130,
+          "update_date" : "Apr 09, 2020 08:33:00 AM",
+          "files" : {
+            "Udefinerede_variabler.py" : {
+              "name" : "Udefinerede_variabler.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "12word1 = 'word'\n\nThere is day = 1\n\nvariable = 1\n\nprint(other_variable)\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Udefinerede_variabler import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>Variable navne kan kun indholde tal, bogstaver og underscore karakteren!! </p>\n<p> Dog må en variable ikke starte med et tal!!!</p>\n<p>Se hvad sker hvis du benytter et tal som første tegn en variable og en variable der ikke er defineret?</p>\n<p>Ret koden således den ikke fejler?</p>\n</ul>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Lidt om variabler du ikke må bruge",
+          "stepic_id" : 1215131,
+          "update_date" : "Apr 09, 2020 08:33:01 AM",
+          "files" : {
+            "kwlist.py" : {
+              "name" : "kwlist.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "# Liste over variabler du ikke skrive\nimport keyword\nprint(keyword.kwlist)\n\n\nis = 'Det virker ikke med sikkerhed' # Ændre is til Is\nprint(is)\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..kwlist import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>keyword.kwlist er ord du ikke må benytte som variabler i Python.</p>\n\n</ul>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Variable_type",
+          "stepic_id" : 1215132,
+          "update_date" : "Apr 09, 2020 08:33:02 AM",
+          "files" : {
+            "Variable_type.py" : {
+              "name" : "Variable_type.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "print(float)\n\nBoolean = True\nprint(type(Boolean))\n\nlist_of_words = ['word','yet another words']\nprint(type(list_of_words))\n\ndictionary = {'a':1,'b':2}\nprint(type(dictionary))\n\ntupl = (1,2,3,4,5)\nprint(type(tupl))\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Variable_type import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>Python tillader at oprette mange forskellige typer af objekter.</p>\n<p>Køre scriptet. Udskriften på skærm vil list de fleste typer af variabler.</p>\n<p>Der følgende typer:</p>\n<p>String - Al tekst skal have \" \" omkring sig <p/>\n<p>Integer - Hele tal 1,2,3... <p/>\n<p>Float - Decimaltal 1,876 <p/>\n<p>List - Indeholde flere data <p/>\n<P<Tuple - Immutable container for data <p/>\n<p>Dictionary - Ordbog <p/>\n<p>Booleans - Har to tilstande true eller false<p/>\n</p>\n</ul>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Type konvertering",
+          "stepic_id" : 1215133,
+          "update_date" : "Apr 09, 2020 08:33:02 AM",
+          "files" : {
+            "Type_konvertering.py" : {
+              "name" : "Type_konvertering.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "number = 9\nprint(type(number))   # print type of variable \"number\"\n\nfloat_number = 9.82\nprint(float_number)\nprint(Convert float_number to integer)\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Type_konvertering import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "Test konverting af.py" : {
+              "name" : "Test konverting af.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "numer = input(\"Indtast et float tal  \")\n\nprint(numer*2)\n\nnumer = float(numer)\n\nprint(numer*2)\n\n#Konverter numer til et Integer?\n# og skriv det ud på konsolen, test om det er integer du skriver ud?\n\n#Konverter numer tilbage et string?\n# og skriv det ud på konsolen, test om det er integer du skriver ud?\n"
+            }
+          },
+          "description_text" : "<html>\n<p>Det er muligt at konvertere fra en data type til en anden ved hjælp af indbyggede funktioner.</p>\n\n<li>int(x) konverterer x til en integer.</li>\n<li>float(x) konverterer x til et floating-point tal. </li>\n<li>str(x) konverterer object x til en string representation. </li>\n\n</ul>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Matematiske operander",
+          "stepic_id" : 1215134,
+          "update_date" : "Apr 09, 2020 08:33:06 AM",
+          "files" : {
+            "Matematiske_operander.py" : {
+              "name" : "Matematiske_operander.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "a1=1\na2=2\nb1=10\nb2=20\n\nprint(a1+a2)\n\nprint(\"a1*a2=\",a1*a2)\n\n\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Matematiske_operander import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>Ligesom alle andre programmerings sprog:<p/>\n<li>the addition ( +)</li>\n<li>subtraction ( -)</li>\n<li>multiplication ( *)</li>\nog division ( /) operators kan bruges med tal.\n<p>Derudover har Python potens ( **) og modulus ( %) operanden.<p/>\n<p>Læs mere om matematiske funktioner her: </p><a>href=https://www.w3schools.com/python/python_operators.as</a>\n<p>Opgaver:</p>\n<li>Dividere a1 og b1 og print resultat på skærm</li>\n<li>Træk a2 fra b2 og print på skærm</li>\n<li>Læg a1 og a2 og b1 og b2 sammen og udskriv på skærm</li>\n<li>a2 i anden potens</li>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Assignments",
+          "stepic_id" : 1215135,
+          "update_date" : "Apr 09, 2020 08:33:06 AM",
+          "files" : {
+            "Assigments.py" : {
+              "name" : "Assigments.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "number = 9.0\nprint(\"number = \" + str(number))\n\nnumber -= 2\nprint(\"number = \" + str(number))\n\n\nnumber = 9.0\nthe_same_number = number - 2\nprint(\"the_same_number = \" + str(number))\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Assigments import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>Augmented assignment er en enkel operation som bruges i forbindelse med binær operationer.\n+=\n-=\nosv.</p>\n<li>Tilføje en line som gør at det endelige resultat bliver 12.0</li>\n</ul>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Boolean operander",
+          "stepic_id" : 1215136,
+          "update_date" : "Apr 09, 2020 08:33:08 AM",
+          "files" : {
+            "Booleans_operators.py" : {
+              "name" : "Booleans_operators.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "to = 2\ntre = 3\n\ner_lige_med = to operator tre\n\nprint(er_lige_med)\n\nprint(not er_lige_med)\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Booleans_operators import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>En boolsk udtryk (eller logisk udtryk) undersøger om en påstand er sand(true) eller falsk(falsk).\nPython benytter de booleske typer True eller False.\n<strong>not</strong> keyword benyttes til invertere en boolsk type.</p>\n<li>Undersøg om 10 er lig med 12 er <strong>true</strong> eller <strong>false</strong>.</li>\n</ul>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Samligns operander",
+          "stepic_id" : 1215137,
+          "update_date" : "Apr 09, 2020 08:33:09 AM",
+          "files" : {
+            "samlign_operators.py" : {
+              "name" : "samlign_operators.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "en = 1\nto = 2\ntre = 3\n\nprint(en < to < tre)  # This chained comparison means that the (one < two) and (two < three) comparisons are performed at the same time.\n\ner_større = tre > to\nprint(er_større)\n\nprint((en > to) or (to < tre))\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..samlign_operators import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "samlign.jpg" : {
+              "name" : "samlign.jpg",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "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"
+            }
+          },
+          "description_text" : "<html>\n<p>Python har flere typer af samlignings operatørere:\n>=, <=, <, > osv.\nAlle operatørere har samme prioritet.</p>\n\n<li>Opgave: benyt 3 forskellige boolske operanter.</li>\n<img src=\"samlign.jpg\" alt=\"\" />\n/ul>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Opgave2",
+          "stepic_id" : 1215138,
+          "update_date" : "Apr 09, 2020 08:33:10 AM",
+          "files" : {
+            "Opgave.py" : {
+              "name" : "Opgave.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "a = 11\nb = 12\nis = 13\nand= 14\n\nprint(\"a > is\",a > is)\nprint(\"b < a =\",b < a)\n\nc= a + b\ne= and - is\n\nprint(\"Er c større end  e \", c operant e)\nc +=\n\n\n\n\n\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Opgave import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "Opgave2.py" : {
+              "name" : "Opgave2.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "a = int(input(\" indtast hel tal mellem 0 og 10\"))\n#b = input(\"indtast hel tal mellem 20 og 30\")\nb = 33\nc = a + b\nprint(\"c =\", c)\n\n\n\n\n\n"
+            },
+            "Opgave3.py" : {
+              "name" : "Opgave3.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "navn = input(\"Indtast dit navn?\")\nalder = input(\"Indtast din alder?\")\n\n#Print en tekst ud som ser sådan feks: Dit navn er lasse og du er 45 år\nprint()\n"
+            },
+            "Opgave4.py" : {
+              "name" : "Opgave4.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "d = float(input(\"Indtast et komma tal mellem 10 og 30?\"))\ne = int(input(\"Indtast et tal mellem 5 og 10?\"))\nf = d * e\n#Udskriv f som et heltal.\nprint(f)\n"
+            }
+          },
+          "description_text" : "<html>\n<p>Opgave i variabler:\nFærdiggøre Python programmet, så det kommer til virke uden fejl og tilføj derefter følgende:\n<li>Læg 4 til c og gang c med sig selv, print resultatet ud.</p>\n\n</ul>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        }
+      ],
+      "unit_id" : 320524,
+      "type" : "lesson"
+    },
+    {
+      "id" : 337061,
+      "title" : "Strings",
+      "update_date" : "Apr 09, 2020 08:33:11 AM",
+      "task_list" : [
+        {
+          "name" : "Konkatenering",
+          "stepic_id" : 1215139,
+          "update_date" : "Apr 09, 2020 08:33:13 AM",
+          "files" : {
+            "Konkatenering.py" : {
+              "name" : "Konkatenering.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "måned = 'Januar'\ndag = 23\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Konkatenering import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>Konkatenering betyder at lægge to tekst stringe sammen.</p>\n<li><strong>Opgave:</strong> Udskriv de to variabler måned og dag i en ny variable der hedder Hej og derefter udskriv den således at der kommer til stå Januar 23 på skærmen.</li></ul>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Len_funktion",
+          "stepic_id" : 1215140,
+          "update_date" : "Apr 09, 2020 08:33:14 AM",
+          "files" : {
+            "Len_funktionen.py" : {
+              "name" : "Len_funktionen.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "phrase = \"\"\"\nIt is a really long string\ntriple-quoted strings are used\nto define multi-line strings\n\"\"\"\nprint(\"Phrase er\",int(len(phrase)),\"karakterer lang.\")\nprint(phrase)\n\nfirst_half = phrase[:int(len(phrase)/2)]\n\nprint(first_half)\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Len_funktionen import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>Len() funktionen tæller antal karakterer i en streng.</p>\n\n</ul>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        }
+      ],
+      "unit_id" : 320525,
+      "type" : "lesson"
+    },
+    {
+      "id" : 337063,
+      "title" : "Opgaver",
+      "update_date" : "Apr 09, 2020 08:33:15 AM",
+      "task_list" : [
+        {
+          "name" : "Opgave 1",
+          "stepic_id" : 1215142,
+          "update_date" : "Apr 09, 2020 08:33:17 AM",
+          "files" : {
+            "Opgave1.py" : {
+              "name" : "Opgave1.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "width = 17\nheight = 12.0\n\n\nwidth/2\n\nwidth/2.0\n\nheight/3\n\n1 + 2 * 5\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Opgave1 import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>For hver af udtrykene, skal du udskrive dem på skærm og udskriv hvilken type de er?</p></ul>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Opgave 2",
+          "stepic_id" : 1215143,
+          "update_date" : "Apr 09, 2020 08:33:18 AM",
+          "files" : {
+            "Opgave2.py" : {
+              "name" : "Opgave2.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "#Konvertere celsius til farhenheit\n\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Opgave2 import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>Skriv et program hvor brugeren indtast en celsius temperatur og printer det som en Fahrenheit temperatur?</p></ul>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Opgave 3",
+          "stepic_id" : 1215144,
+          "update_date" : "Apr 09, 2020 08:33:19 AM",
+          "files" : {
+            "Opgave3.py" : {
+              "name" : "Opgave3.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "import datetime\n\nx = datetime.datetime.now()\n\nprint(x.year)\n\n\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Opgave3 import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>Lav et program hvor brugeren skal indtaste sit navn og fødselsår, hvorefter skal der udskrives: \"Hej xxxx, du må være ´xx år gamle!</p>\n<p>De 3 liner i opgave 3 giver dig hvilket år der er i dag.</p></ul>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        }
+      ],
+      "unit_id" : 320526,
+      "type" : "lesson"
+    },
+    {
+      "id" : 337064,
+      "title" : "Betingelser",
+      "update_date" : "Apr 09, 2020 08:33:20 AM",
+      "task_list" : [
+        {
+          "name" : "Booelske operatore",
+          "stepic_id" : 1215145,
+          "update_date" : "Apr 09, 2020 08:33:23 AM",
+          "files" : {
+            "Booleske_operatore.py" : {
+              "name" : "Booleske_operatore.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "navn = \"John\"\nalder = 17\n\nprint(navn == \"John\" or alder == 17)    # checks om navn er lig \"John\" OR alder er lig  17\n\nprint(John is not 23 years old)\n\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Booleske_operatore import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>Boolekse operanter samligner udsagn og returner en boolesk værdi. Den booleske operant <strong>and</strong> returner true hvis begge udsagn er sande.</p></ul>\n  <p>Den booleske operant <strong>or</strong> returnere true, når en af de to udsagn er sande.</p>\n<p>Den booleske operant <strong>not</strong> invertere det booleske udsagn det tilknyttet.</p>\n<li>Ændre den sidste linie således der udskrive true, når programmet køres!</li></html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Booleske orden",
+          "stepic_id" : 1215146,
+          "update_date" : "Apr 09, 2020 08:33:24 AM",
+          "files" : {
+            "Booleske_orden.py" : {
+              "name" : "Booleske_orden.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "navn = \"John\"\nalder = 17\n\nprint(navn == \"John\" or not alder > 17)\n\nprint(navn == \"John\" or not alder > 17)\n\nprint(\"Navn\" is \"Ellis\" or not (\"navn\" equal \"John\" and han er 17 år gamle))\n\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Booleske_orden import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>Booleske operatore evaluere ikke fra venstremod højre, men <strong>not</strong> er først evalueret</p></ul>\n</html> derefter <strong>and</strong> og til sidst <strong>or.</strong>\n<li>Få den sidste line til virker?</li>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "If_statement",
+          "stepic_id" : 1215147,
+          "update_date" : "Apr 09, 2020 08:33:24 AM",
+          "files" : {
+            "if_statement.py" : {
+              "name" : "if_statement.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "navn = \"John\"\nalder = 17\n\nif navn == \"John\" or alder == 17:   # Undersøg om navnet er \"John\" eller alderen er 17. I Så udskriv 2 liner.\n    print(\"navnet er John\")\n    print(\"John er 17 år gamle\"\n          \"\")\n\n\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..if_statement import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p><strong>if</strong> kommandoen benyttes til at undersøge et udsagn for om det sand eller falsk. Hvis det er sandt udskrives de efterfølgende liner som er rykket ind.</p>\n<li>Lig med: a == b\n<li>Ikke lig med: a != b\n<li>Mindre end: a < b\n<li>Mindre end eller lig med: a <= b\n<li>Større end: a > b\n<li>Større end eller lig med: a >= b</ul>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Else, elif del af if statement",
+          "stepic_id" : 1215148,
+          "update_date" : "Apr 09, 2020 08:33:26 AM",
+          "files" : {
+            "else_elif.py" : {
+              "name" : "else_elif.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "x = 28\n\nif x < 0:\n    print('x < 0')                      # Udføre linien hvis if x < 0\nelif x == 0:\n    print('x is zero')                 # Hvis det ikke er sandt at x < 0, check hvis x == 0\nelif x == 1:\n    print('x == 1')                    # Hvis det ikke er sandt at x < 0 and x != 0, check hvis x == 1\nelse:\n    print('non of the above is true')\n\nnavn = \"John\"\n\ncheck if navn lig med \"John\"\n    print(True)\nelse\n    print(False)\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..else_elif import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p><strong>else</strong> er en tilføjelse til <strong>if</strong>. <strong>elif</strong> står for  \"else if\".</p>\n<p><strong>elif</strong> benyttes til at undersøge flere udsagn efter hinanden.\nEr det første udsagn sand, bliver resten ikke undersøgt.\nEr det første udsagn falsk undersøger <strong>elif</strong> om det er sandt osv.</p></ul>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Opgave1",
+          "stepic_id" : 1215149,
+          "update_date" : "Apr 09, 2020 08:33:26 AM",
+          "files" : {
+            "Opgave1.py" : {
+              "name" : "Opgave1.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "tal = int(input(\"Indtast et positivt eller negativt tal \"))\n\nif\n\nelif\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Opgave1 import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>Undersøg om et tal er positvit eller negativt?</p>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Opgaver2",
+          "stepic_id" : 1215150,
+          "update_date" : "Apr 09, 2020 08:33:27 AM",
+          "files" : {
+            "Opgave2.py" : {
+              "name" : "Opgave2.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "tal1 = int(input(\"Indtast første tal\"))\ntal2 = int(input(\"Indtast andet tal\"))\n\nif tal1 større end tal2:\n    print(\"\")\nelif tal1 mindre end tal2:\n    print(\"\")\nelif tal1 lig med tal2:\n    print(\"\")\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Opgave2 import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>Indtast 2 tal og undersøg om de er større end eller mindre end eller lig med hinanden?</p>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Opgave3",
+          "stepic_id" : 1215151,
+          "update_date" : "Apr 09, 2020 08:33:28 AM",
+          "files" : {
+            "Opgave3.py" : {
+              "name" : "Opgave3.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "#Dette er nested if, en if inden i en if\n#Undersøg hvordan det virker\n\nx = 41\n\nif x > 10:\n  print(\"Tallet er over 10\")\n  if x > 20:\n    print(\"og over 20!\")\n  else:\n    print(\"men ikke over 20.\")\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Opgave3 import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>Dette er en nested if, en <strong>if</strong> inden i en <strong>if </strong>.\nUndersøg hvordan det virker?</p>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        }
+      ],
+      "unit_id" : 320528,
+      "type" : "lesson"
+    },
+    {
+      "id" : 337065,
+      "title" : "Loops",
+      "update_date" : "Apr 09, 2020 08:33:29 AM",
+      "task_list" : [
+        {
+          "name" : "For loop",
+          "stepic_id" : 1215152,
+          "update_date" : "Apr 09, 2020 08:33:31 AM",
+          "files" : {
+            "for_loop.py" : {
+              "name" : "for_loop.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "for i in range(5):    # for hver tal mellem 0-4. range(5) functionen returner listen [0, 1, 2, 3, 4]\n    print(i)          # Denne line udkrives 5 gange. Første gang udskrives 0, så 1, ...\n\n\nprimes = [2, 3, 5, 7]   # create new list\n\niterate over primes using for loop\n    print(prime)\n\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..for_loop import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "Eks1.py" : {
+              "name" : "Eks1.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "for x in \"banana\":\n  print(x)\n"
+            },
+            "Eks2.py" : {
+              "name" : "Eks2.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "#Debug denne file!\n\nfor x in range(2, 6):\n  print(x)\n\nprint(\"Ny løkke\")\n\nfor x in range(2, 30, 3):\n  print(x)\n"
+            },
+            "Eks3.py" : {
+              "name" : "Eks3.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "#Debug denne Python file og se hvad der sker inden i løkkerne?\n\nfor x in range(10, 110, 10):\n    for y in range(10, 110, 10):\n        print(x*y)\n"
+            }
+          },
+          "description_text" : "<html>\n<strong>for</strong> løkker benyttes til at gennemløbe en tal række, eks. 0 til 4.\n\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "For loops med tekst",
+          "stepic_id" : 1215153,
+          "update_date" : "Apr 09, 2020 08:33:32 AM",
+          "files" : {
+            "Loops_tekst.py" : {
+              "name" : "Loops_tekst.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "hello_world = \"Hello, World!\"\n\nfor ch in hello_world:    # print each character from hello_world\n    print(ch)\n\nlength = 0      # initialize length variable\n\nfor x in hello_world:\n    length += 1     # add 1 to the length on each iteration\nprint(length)\n\nprint(len(hello_world))\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Loops_tekst import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>Her er et eksemple på hvordan tekst strenge kan benytte i en for loop.</p>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "While loop",
+          "stepic_id" : 1215154,
+          "update_date" : "Apr 09, 2020 08:33:33 AM",
+          "files" : {
+            "While_loop.py" : {
+              "name" : "While_loop.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "square = 1\n\nwhile square <= 10:\n    print(square)    # Denne kode bliver gennemløbet 10 gange\n    square += 1      # Denne kode bliver gennemløbet 10 gange\n\nprint(\"Færdig\")  # Denne line er ikke i while loopen\n\n\n\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..While_loop import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "Opgave1.py" : {
+              "name" : "Opgave1.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "#Udskriv alle de kvardratiske tal mellem 0 og 99, ved hjælp af while\n\nsquare = 0\nnumber = 1\n\nprint all squares from 0 to 99\n    square = number ** 2\n    print(square)\n    number += 1\n"
+            }
+          },
+          "description_text" : "<html>\n<p>En <strong>while</strong> loop minder om en <strong>if</strong> kommando. Den gennemføre de eller de nedenstående liner så længe en betingelse er opfyldt.\n</p>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Break keyword",
+          "stepic_id" : 1215155,
+          "update_date" : "Apr 09, 2020 08:33:34 AM",
+          "files" : {
+            "break_keyword.py" : {
+              "name" : "break_keyword.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "count =0\n\nwhile True:  # Den er altid sand!!\n    print(count)\n    count += 1\n    if count >= 5:\n        break           # Loopen stoppe hvis count >= 5\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..break_keyword import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>En uendelig løkke vil ikke stoppe, så  det nødvendigt at benytte et <strong>break</strong> til at stoppe løkken.</p>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Continue_keyword",
+          "stepic_id" : 1215156,
+          "update_date" : "Apr 09, 2020 08:33:38 AM",
+          "files" : {
+            "Continue.py" : {
+              "name" : "Continue.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "for i in range(5):\n    if i == 3:\n        continue   # Hopper over i==3, den bliver ikke udskrevet\n    print(i)\n\nfor x in range(10):\n    if Check if x is even:\n        continue   # hop over print(x) for denne loop\n    print(x)\n\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Continue import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p><strong>continue</strong> kommandoen bliver brugt til at hoppe over den restrende kode i løkken og derefter forsætte i løkken igen.</p>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        }
+      ],
+      "unit_id" : 320529,
+      "type" : "lesson"
+    },
+    {
+      "id" : 337066,
+      "title" : "Funktioner",
+      "update_date" : "Apr 09, 2020 08:33:38 AM",
+      "task_list" : [
+        {
+          "name" : "Funktioner",
+          "stepic_id" : 1215157,
+          "update_date" : "Apr 09, 2020 08:33:40 AM",
+          "files" : {
+            "Funktioner.py" : {
+              "name" : "Funktioner.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "def hello_world():  # funktions navn\n    print(\"Hello, World!\")\n\nfor i in range(5):\n    hello_world()   # Kalder funktioner hello_world 5 gange\n\nprint('Jeg vil være en funktion')\nprint('Jeg vil være en funktion')\nprint('Jeg vil være en funktion')\n\n\nDefinere funktions navnet 'fun' tog udskift de 3 liner ovnen over\n    print('Jeg vil være en funktion')\n\nfor i in range(3):\n    fun()\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Funktioner import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>Funktioner er nytte fuld måde at dele sin kode på i blokke, så den bliver nemmere at læse og kan genbruges. Funktioner defineres med nøgleordet <strong>def</strong> efterfulgt at navnet på funktionen.\n<li>Lav en funktion der udskifter de 3 liner.</li></p>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Parametre",
+          "stepic_id" : 1215158,
+          "update_date" : "Apr 09, 2020 08:33:41 AM",
+          "files" : {
+            "Parametre.py" : {
+              "name" : "Parametre.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "def foo(x):                 # x er en parameter\n    print(\"x = \" + str(x))\n\nfoo(5)   # Her overføres tallet 5 til foo funktionen\n\ndefinere en funktion med navnet 'square' som udskriver kvadratet af tallet i parantesen\n    print(x ** 2)\n\nsquare(4)\nsquare(8)\nsquare(15)\nsquare(23)\nsquare(42)\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Parametre import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>Funktionens parametre bliver defineret i parantesen. Parameteren opføre sig som en variable til argumentet i funktionen.\n<li>Definer en funktion som beregner kvadratet af det tal der bliver overført til funktionen.</li></p>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Returnere værdi",
+          "stepic_id" : 1215159,
+          "update_date" : "Apr 09, 2020 08:33:42 AM",
+          "files" : {
+            "return_keyword.py" : {
+              "name" : "return_keyword.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "def sum_two_numbers(a, b):\n    return a + b            # returnere summen af de 2 tal a, b\n\nc = sum_two_numbers(3, 12)  # variablen c tildeles summen af a og b\n\n\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..return_keyword import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "Opgave1.py" : {
+              "name" : "Opgave1.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "def fib(n):\n    \"\"\"This is documentation string for function. It'll be available by fib.__doc__()\n    Return a list containing the Fibonacci series up to n.\"\"\"\n    result = []\n    a = 1\n    b = initialize variable b\n    while a < n:\n        result.append(a)\n        tmp_var = b\n        update variable b\n        update variable a\n    return result\n\nprint(fib(10))\n"
+            }
+          },
+          "description_text" : "<html>\n<p>Funktioner kan returne en værdi til den der spørger til funktionen, ved at benytte nøgleordet <strong>return</strong>\n. Derefter kan værdien tildeles en variable og udskrives.</p>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        }
+      ],
+      "unit_id" : 320530,
+      "type" : "lesson"
+    },
+    {
+      "id" : 337067,
+      "title" : "Moduler og pakker",
+      "update_date" : "Apr 09, 2020 08:33:43 AM",
+      "task_list" : [
+        {
+          "name" : "Import modul",
+          "stepic_id" : 1215160,
+          "update_date" : "Apr 09, 2020 08:33:45 AM",
+          "files" : {
+            "mit_modul.py" : {
+              "name" : "mit_modul.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "\"\"\" Dokumentationen for mit_modul.py som ineholder funktionen hello_world\n\"\"\"\n\n\ndef hello_world(name):\n    print(\"Hello, World! Mit navn er\",name)\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..mit_modul import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "config.py" : {
+              "name" : "config.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "# Husk at ændre opstætning af Googlemail, således eksterne App får lov til sende beskeder!!!!\n# Indtast Google mail konto navn nedenfor\nEMAIL_ADDRESS=\"******@gmail.com\"\n# Indtast password til Googlekonto\nPASSWORD=\"**********\"\n# Indtast modtages Google mail konto navn nedenfor\nEMAIL_ADDRESS_rx=\"****************\"\n"
+            },
+            "emailsent.py" : {
+              "name" : "emailsent.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "import smtplib\nimport config\n\ndef send_email(subject, msg):\n    try:\n        server=smtplib.SMTP(\"smtp.gmail.com\",587)\n        server.ehlo()\n        server.starttls()\n        server.login(config.EMAIL_ADDRESS, config.PASSWORD)\n        message = \"Subject: {}\\n\\n{}\".format(subject,msg)\n        server.sendmail(config.EMAIL_ADDRESS,config.EMAIL_ADDRESS_rx, message)\n        server.quit()\n        print(\"Mail sendt med succes\")\n\n    except:\n        print(\"Fejl mail ikke sendt\")\n\n\nsubject =\"Test\"\nmsg=\"Hej med dig\"\nsend_email(subject, msg)\n"
+            }
+          },
+          "description_text" : "<html>\n<p>Moduler i Python er Python filer med extension .py som indeholder definitioner og statement.\nModuler er praktiske når der er funktioner som kan benyttes i flere programmer. På den måde skal der ikke kopies kode til hvert program.</p>\n<p>Modul importes vedhjælp af nøgleordet <strong>import</strong>.</p>\n<li>Importere modulet mit_modul og kald funktionen hello_world.</li>\n\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Standard moduler",
+          "stepic_id" : 1215162,
+          "update_date" : "Apr 09, 2020 08:33:46 AM",
+          "files" : {
+            "Standar_moduler.py" : {
+              "name" : "Standar_moduler.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "import datetime\n# https://docs.python.org/3/library/datetime.html?highlight=date#module-datetime\n\nprint(datetime.datetime.now())\nx=datetime.datetime.now()\n\nprint(\"Året er:\",x.year)\n\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Standar_moduler import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "random_modul.py" : {
+              "name" : "random_modul.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "\nimport random\n\n# https://docs.python.org/3/library/random.html\nfor i in range(12):\n    x=random.randrange(1,9)\n    y=random.randrange(3)\n    print(\"Mellem 1 og 9\",x)\n    print(\"Mellem 0 og 3\",y)\n"
+            },
+            "tid.py" : {
+              "name" : "tid.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "import time\n# https://docs.python.org/3/library/time.html?highlight=time#module-time\ntid=2\nprint(\"Lasse\")\ntime.sleep(tid)\nprint(\"Lasse\")\ntime.sleep(tid)\nprint(\"Lasse2\")\n"
+            },
+            "Matematikmodul.py" : {
+              "name" : "Matematikmodul.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "import math\n# https://docs.python.org/3/library/math.html?highlight=math#module-math\nx=math.pi\nprint(x)\nx=math.trunc(10.53)\nprint(x)\nx=math.sin(45)\nprint(x)\nx=math.pow(2,2)\nprint(x)\nx=math.sqrt(9)\nprint(x)\n"
+            }
+          },
+          "description_text" : "<html>\n<p>I Python er det et hav af standard biblioteker. Husk man kan trykke på Ctrl+mellemrum efter . så vil mulighederne komme på skærmen.</p>\n Men læs om moduler først!!</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        }
+      ],
+      "unit_id" : 320531,
+      "type" : "lesson"
+    },
+    {
+      "id" : 337069,
+      "title" : "Opgave 2",
+      "update_date" : "Apr 09, 2020 08:33:48 AM",
+      "task_list" : [
+        {
+          "name" : "Opgaver",
+          "stepic_id" : 0,
+          "update_date" : "Jan 01, 1970 12:00:00 AM",
+          "files" : {
+            "task.py" : {
+              "name" : "task.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..task import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "Effektberegner.py" : {
+              "name" : "Effektberegner.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "#Lav et program der beregner strømmen i et kabel og finder det rette kvadrat\n\nP = int(input(\"Indtast effektforbrug på brugsgenstanden\"))        # Indtast effektforbruget\nU = 230                 # Spændingen er på 230V\nI = P/U                 # Beregner strømmen\nprint(str(I)+\" A\")      # skriver amperer\n\ntaller=int(input(\"Skal der benyttes 70c kabel(tast 0) 90c kabel (tast 1)\"))\n#Taller bruges til checke om programmet skal stoppe(1) eller forsæt\n"
+            },
+            "lkaae_modul.py" : {
+              "name" : "lkaae_modul.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "# Dette er et modul til brug i andre Python programmer\n#Lav et program der kalder dette modul\n\ndef lkaae_test(x):\n    x+=5\n    print(x)\n\ndef lkaae_test2(x):\n    x*=2\n    print(x)\n\ndef lkaae_test3(x):\n    x**=4\n    print(x)\n"
+            },
+            "Menu_program.py" : {
+              "name" : "Menu_program.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "#Lav et menu program med 3 punkter i\n# 1) Frem\n# 2) Tilbage\n# 3) Stop\n\nvalg =0\n\ndef menu():\n    print(\"1) Frem, 2) Tilbage, 3) Stop\")\n    valg=int(input(\"Indtast dit valg?\"))\n\nmenu()\n\nwhile valg==1:\n    print(\"Du har valgt menu nr. 1\")\n    menu()\n\nwhile valg==2:\n\nwhile valg==3:\n\n    break\n"
+            },
+            "Ohmslov.py" : {
+              "name" : "Ohmslov.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "#Lave et program der udregner ohm lov i alle kombinationer!\n"
+            },
+            "Regnemaskine.py" : {
+              "name" : "Regnemaskine.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "# Lav et Regnemaskine program?\n#De 4 regnearter skal kaldes via funktioner\n#Udfyld resten så programmet kommer til virke\n\ndef Plus(x,y):\n    resultat =x+y\n    return resultat\n\ndef Minus(x,y):\n\n\ndef Gange(x,y):\n\n\ndef Divider(x,y):\n\n\ndef menu():\n    print(\"Tast 1(+), 2(-), 3(*), 4(/), 5(slut)\")\n\nmenu()\nMenutal = int(input(\"tast tal nu!!\"))\n\nwhile Menutal==1:\n    print(\"Nu skal der lægges sammen(+)!\")\n    tal1=float(input(\"Indtast det første tal?\"))\n    tal2=float(input(\"Indtast det andet tal?\"))\n    print(\"Resultatet af\",tal1,\"+\",tal2,\"=\",Plus(tal1, tal2))\n    print()\n    menu()\n    Menutal = int(input(\"tast tal nu!!\"))\n\nwhile Menutal==2:\n\n\nwhile Menutal==3:\n\n\nwhile Menutal==4:\n\n\n\nwhile Menutal==5:\n    print(\"Slut!!!!!!!\")\n    break\n"
+            }
+          },
+          "description_text" : "<html>\n<p><li>Her nogle opgaver.</li></p>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        }
+      ],
+      "unit_id" : 320533,
+      "type" : "lesson"
+    },
+    {
+      "id" : 337070,
+      "title" : "Statemachine",
+      "update_date" : "Apr 09, 2020 08:33:50 AM",
+      "task_list" : [
+        {
+          "name" : "Statemachine",
+          "stepic_id" : 1215163,
+          "update_date" : "Apr 09, 2020 08:33:54 AM",
+          "files" : {
+            "Random_statemachine.py" : {
+              "name" : "Random_statemachine.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "from random import random\nfrom time import sleep\n\ndef lysgreen():\n    print (\"Grøn:\")\n        # Sleep er en forsinkelse af programmet\n    sleep(1.5)\n    tal=random()\n    if tal>.5:\n        return lysyellow()\n    else:\n        return lysred()\n\ndef lysyellow():\n    print (\"Gul:\")\n    # Sleep er en forsinkelse af programmet\n    tal=random()\n    if tal>.5:\n        return lysgreen()\n    else:\n        return lysred()\n\ndef lysred():\n    print (\"Rød:\")\n    # Sleep er en forsinkelse af programmet\n    sleep(1.5)\n    tal=random()\n    if tal>.2:\n        return lysgreen()\n    else:\n        return None\n\nlys=lysgreen()    # initial state\nwhile lys: lys=lys()  # launch state machine\nprint (\"Done with states\")\n\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Random_statemachine import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "Simpel_statemachine.py" : {
+              "name" : "Simpel_statemachine.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "#Program til at skifte mellem states\nfrom random import random\nfrom time import sleep\n\ndef state0():\n    print (\"state0\")\n        # Sleep er en forsinkelse af programmet\n    sleep(1.5)\n    if random()>=.5:\n        return state1\n    else:\n        return state2\n\ndef state1():\n    print (\"state1\")\n    # Sleep er en forsinkelse af programmet\n    sleep(1.5)\n    if random()>=.5:\n        return state0\n    else:\n        return state2\n\ndef state2():\n    print (\"state2\")\n    # Sleep er en forsinkelse af programmet\n    sleep(1.5)\n    if random()>.2:\n        return state0\n    else:\n        return None\n\nstate=state0    # initial state\nwhile state: state=state()  # launch state machine\nprint (\"Done with states\")\n"
+            }
+          },
+          "description_text" : "<html>\n<p>En statemachine er måde at beskrive komplicerede strukturere på en simple måde.</p>\nDette eksemple viser et program med 3 states, hvor en random generator afgøre hvilket state der skal hoppes til.\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Livets_gang",
+          "stepic_id" : 1215164,
+          "update_date" : "Apr 09, 2020 08:33:55 AM",
+          "files" : {
+            "Livets_gang_evighed.py" : {
+              "name" : "Livets_gang_evighed.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "#Statemachine til beskrivelse af livets gang\nimport time\n\ndef Home(x):\n\n    if x==\"wake\":\n        x=\"take train\"\n        print(\"Tager toget på arbejde\")\n        time.sleep(tid)\n        return Work(x)\n    elif x==\"take train\":\n        x=\"sleep\"\n        print(\"Går i seng\")\n        time.sleep(tid)\n        return Bed(x)\n\ndef Work(x):\n\n\ndef Bed(x):\n\n\n\nstate=Home(x=\"wake\")\nwhile state: state=Home(x=\"wake\")\nprint(\"Død og færdig!!!!\")\n\n\n\n\n\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Livets_gang_evighed import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "solution.py" : {
+              "name" : "solution.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "#Statemachine til beskrivelse af livets gang\nimport time\n\ny=0\ntid=1\n\ndef Home(x):\n    global y\n    global tid\n    y=y+1\n    print(\"Y=\"+str(y))\n    if y==50:\n        return\n    if x==\"wake\":\n        x=\"take train\"\n        print(\"Tager toget på arbejde\")\n        time.sleep(tid)\n        return Work(x)\n    elif x==\"take train\":\n        x=\"sleep\"\n        print(\"Går i seng\")\n        time.sleep(tid)\n        return Bed(x)\n\ndef Work(x):\n    if x==\"take train\":\n        x=\"take train\"\n        print(\"Tager toget hjem fra arbejde\")\n        time.sleep(tid)\n        return Home(x)\n\ndef Bed(x):\n    if x==\"sleep\":\n        x=\"wake\"\n        print(\"Vågner\")\n        time.sleep(tid)\n        return Home(x)\n\n\nstate=Home(x=\"wake\")\nwhile state: state=Home(x=\"wake\")\nprint(\"Død og færdig!!!!\")\n\n\n\n\n"
+            },
+            "Livets_gang_begrænset.py" : {
+              "name" : "Livets_gang_begrænset.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "#Statemachine til beskrivelse af livets gang\nimport time\n\ny=0\ntid=1\n\ndef Home(x):\n    global y\n    global tid\n#Lav en tæller som stoppet livet!!!\n    if x==\"wake\":\n        x=\"take train\"\n        print(\"Tager toget på arbejde\")\n        time.sleep(tid)\n        return Work(x)\n    elif x==\"take train\":\n        x=\"sleep\"\n        print(\"Går i seng\")\n        time.sleep(tid)\n        return Bed(x)\n\ndef Work(x):\n\n\ndef Bed(x):\n\n\n\nstate=Home(x=\"wake\")\nwhile state: state=Home(x=\"wake\")\nprint(\"Død og færdig!!!!\")\n\n\n\n\n"
+            }
+          },
+          "description_text" : "<html>\n<p>Livets_gang_evighed.py er et program der viser livet ved hjælp af 3 states.</p>\n<li>Færdigøre programmet så det viser en person der står op om morgen går på arbejde tager hjem gå i seng og står op igen osv.</li>\n<li>Livets_gang_begrænset.py skal statemachinen have en begrænsning så efter et antal genneme af statene stopper programmet.</li>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Lyskryds",
+          "stepic_id" : 1215165,
+          "update_date" : "Apr 09, 2020 08:33:56 AM",
+          "files" : {
+            "Lyskrydsopg.py" : {
+              "name" : "Lyskrydsopg.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "from random import random\nfrom time import sleep\n\n\ndef state0():\n    print ('\\x1b[7;32;40m' + \"Grøn! Kør\" + '\\x1b[0m')\n    sleep(5.5)\n    return state1\n\ndef state1():\n    print ('\\x1b[6;30;43m' + \"Gul! stop\" + '\\x1b[0m')\n    sleep(1.5)\n    return state2\n\ndef state2():\n    print ('\\x1b[6;30;41m' + \"Rød! stop\" + '\\x1b[0m')\n    sleep(5.5)\n    return state0\n\nstate=state0    # initial state\nwhile state: state=state()  # starter statemachine\nprint (\"Done with states\")\n\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..Lyskrydsopg import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "tl.png" : {
+              "name" : "tl.png",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "iVBORw0KGgoAAAANSUhEUgAAA0wAAAGmCAYAAABP3QR6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA3XAAAN1wFCKJt4AABmdklEQVR42u3dd5xddZ3/8dedOz0zmZn03ghJSAKIigVRBBTsva2KZdcVl7XuusWuu6yKZX8uNnR1FRHsKIgFREATUJEeAkmA9JCemZTpc+f8/vjMMCHkzNw7957zPed73s/H4/sIWGY+95vv/Z7v59tOLgiCABEREREREXmCKtcBiIiIiIiIJJUSJhERERERkRBKmEREREREREIoYRIREREREQmhhElERERERCSEEiYREREREZEQSphERERERERCKGESEREREREJoYRJREREREQkhBImERERERGREEqYREREREREQihhEhERERERCaGESUREREREJIQSJhERERERkRBKmEREREREREIoYRIREREREQmhhElERERERCSEEiYREREREZEQSphERERERERCKGESEREREREJoYRJREREREQkhBImERERERGRENWuAzieQqHA/fffz4MPPsjWrVtpb28nCALXYckoGhoamDx5MkuWLOHUU09l+vTprkOqmCAIePDBB3nggQfYvHkz7e3tFAoF12HJKOrq6mhra2PJkiWcfPLJzJ0713VIFfXII4+wZs0aNm7cSHt7O/39/a5DklHU1NTQ1tbGokWLOPnkkznhhBNch1RR27Zt47777uOhhx6ivb2d3t5e1yHJKPL5PJMmTWLBggUsX76cZcuWkcvlXIdVMbt27eK+++5jw4YN7N+/n+7ubtchyShyuRyTJk1i3rx5LFu2jJUrV5LP512H9URBQvT29gZXX3118KpXvSpoaWkJAJUUl+XLlwcf/ehHg/Xr17tuWuNSKBSC66+/Pnjzm98cTJ061Xl9qpRXTjjhhOADH/hAcPfdd7tuWuO2atWq4J3vfGcwe/Zs5/WpUl6ZM2dOcOGFFwarV6923azG7a677gre//73B4sWLXJenyrllWnTpgUXXHBBcP311weFQsF10xqXdevWBR/+8IeD5cuXO69PlfJKa2tr8JrXvCb4+c9/HvT19bluWo9xnjD19fUFl156aTB37lznf0kqlS+5XC54+ctfnpqBaqFQCC6//PJg2bJlzutOJZpy9tlnB3/4wx9cN7Wi/eIXvwie8pSnOK83lWjKU5/61ODaa6913cyKdssttwTPfe5zndebSjRl2bJlwRVXXBEMDg66bmpFufPOO4OXvexlQS6Xc153KpUv8+bNC77yla8kInFymjCtXr1aswEZKfl8Pnj3u98dHDlyxHWbD7VmzZrgGc94hvO6UomnvPGNbwz27t3rutmF2rRpU3D++ec7ryeVeMoLX/jCYMuWLa6bXag9e/YEb3jDG5zXk0o85ZnPfGZw//33u252oQ4fPhxcdNFFQVVVlfO6Uom+rFy5MrjtttuctjknCdPg4GDwX//1X0F1dbXzvwSVeMtJJ50UrF271mmjP55vfetbQUNDg/P6UYm3zJkzJ7j11ltdN78nuOaaa4K2tjbn9aMSb5k0aVJw3XXXuW5+T7Bq1SptBc1gaWxsDL7zne+4bn5PsGbNmmDp0qXO60cl3lJdXR1ccsklztpd7AnTwMBA8I53vMN5xau4K21tbYkapH784x93Xicq7kpDQ0Pwi1/8wnUzfMxll10W5PN55/Wi4qbk8/ngm9/8putm+Jif//znQX19vfN6UXFXPvnJT7puho9ZtWpV0Nra6rxOVNyVCy+8MBgYGIi97cWaMA0ODgZ///d/77yyVdyXxsZG58urQRAEn/zkJ53XhYr7UlNTE/zqV79y3RyDyy+/XHvxVYJcLhd861vfct0cgxtuuCGora11Xh8q7st//Md/uG6Owe233x40NTU5rwsV9+Wd73xn7O0v1oTp05/+tPNKVklOmTZtWrB9+/bYG/2w733ve87rQCU5ZcKECcGaNWuctcff/e53WllSeaxUV1cHN910k7P2eO+99waNjY3O60ElOeXKK6901h63bdumG2tVHlfi3p4XW8K0evVqnVlSeUI566yznFxjum7dumDChAnOP79KsspJJ50UdHV1xd4ed+/eHUyfPt3551dJVpk5c2awZ8+e2NtjZ2enzoioPKE0NTUFGzZsiL09FgqF4Mwzz3T++VWSVaqrq2PdqRRLwtTf3x+cfPLJzitXJZnFxX79c845x/nnVklm+djHPhZ7e7zgggucf26VZJa3v/3tsbfHD33oQ84/t0oyy/Oe97zY2+NXv/pV559bJZllxYoVsV05HkvC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"
+            }
+          },
+          "description_text" : "<html>\n<p>Her er der vist en måde at skrive med farver i Python</p>\n<li>Lav et lyskryds med syd/nord og Øst/vest lys. Hvor mange states skal der benyttes?</li>\n<img src=\"tl.png\" alt=\"\" />\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        }
+      ],
+      "unit_id" : 320534,
+      "type" : "lesson"
+    },
+    {
+      "id" : 337071,
+      "title" : "File_write",
+      "update_date" : "Apr 09, 2020 08:33:57 AM",
+      "task_list" : [
+        {
+          "name" : "File_write",
+          "stepic_id" : 1215166,
+          "update_date" : "Apr 09, 2020 08:33:59 AM",
+          "files" : {
+            "File_write.py" : {
+              "name" : "File_write.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "#https://www.tutorialspoint.com/python/python_files_io.htm\nif __name__ == \"__main__\":\n    File_navn=input(\"indtast navnet på filen, med ekstensions!\")\n    f = open(File_navn, \"w\") #Filen oprettes og hvis der eksistere en i forvejen overskrives den!\n\n    string1=input(\"Indtast dit fornavn?\")\n    string1=string1+\"\\n\" # \\n laver en ny line i filen\n    f.write(string1) #string1 skrives til filen\n    f.close() # Filen lukkes ned\n\n    f = open(File_navn, \"a\") # Filen åbnes og nu kan der adder noget tekst til den\n    string2=input(\"Indtast dit efternavn?\")\n    string2=string2+\"\\n\"+\"Filens navn er:\"+File_navn # \\n laver en ny line i filen\n    f.write(string2)\n    f.close()\n\n#Åben filen som er i projektmappe og se om den indeholder den tekst du skrev.\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..File_write import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>Her er et eksempel på hvordan en file oprettes og der kan skrives til den(append). Husk at lukke file hver gang der skrevet til den!!!</p>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Opgave1",
+          "stepic_id" : 1215167,
+          "update_date" : "Apr 09, 2020 08:34:01 AM",
+          "files" : {
+            "task.py" : {
+              "name" : "task.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..task import sum\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(sum(1, 2), 3, msg=\"adds 1 + 2 to equal 3\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<p>Tilføj til dit lyskryds program at der skrives tidspunkt og tilstand til en file hver gang lyskrydset skifter?</p>\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        }
+      ],
+      "unit_id" : 320535,
+      "type" : "lesson"
+    }
+  ],
+  "authors" : [
+    "Lasse Kaae"
+  ],
+  "summary" : "Python kursus til Modul 2.1 2020\nCreated: Feb 25, 2020, 9:19:43 AM.",
+  "programming_language" : "Python",
+  "language" : "en",
+  "environment" : "unittest",
+  "additional_files" : [
+    {
+      "name" : "Opgave 2/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    }
+  ],
+  "course_type" : "PyCharm",
+  "version" : 11
+}
