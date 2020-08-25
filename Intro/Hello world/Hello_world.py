@@ -1,1 +1,1 @@
-print("Hallo, mit navn er     ")
+print("Hallo, mit navn er ****")
