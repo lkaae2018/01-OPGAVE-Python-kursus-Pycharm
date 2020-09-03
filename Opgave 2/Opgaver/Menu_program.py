@@ -6,6 +6,7 @@
 valg =0
 
 def menu():
+    global valg
     print("1) Frem, 2) Tilbage, 3) Stop")
     valg=int(input("Indtast dit valg?"))
 

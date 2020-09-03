@@ -4,6 +4,7 @@ for i in range(5):
     print(i)
 
 for x in range(10):
+    y= modulus
     if Check if x is even:
         continue   # hop over print(x) for denne loop
     print(x)
