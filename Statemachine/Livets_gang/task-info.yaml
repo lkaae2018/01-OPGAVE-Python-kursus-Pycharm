@@ -12,3 +12,5 @@ files:
   visible: true
 - name: Livets_gang_begrænset.py
   visible: true
+- name: livetsgang.png
+  visible: true

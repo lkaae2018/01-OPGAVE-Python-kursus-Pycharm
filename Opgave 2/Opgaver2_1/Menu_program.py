@@ -2,7 +2,7 @@
 # 1) Frem
 # 2) Tilbage
 # 3) Stop
-
+# og få den til at skifte mellem de 3 menupunkter.
 valg =0
 
 def menu():

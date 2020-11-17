@@ -10,3 +10,5 @@ files:
   visible: false
 - name: Simpel_statemachine.py
   visible: true
+- name: state_random.png
+  visible: true

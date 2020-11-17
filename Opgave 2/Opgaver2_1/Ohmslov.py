@@ -1,4 +1,4 @@
-#Lave et program der udregner ohm lov i alle kombinationer!
+#Lave et program der udregner ohm lov i alle kombinationer!!
 def state0():
 
     indtast=input("Vil du udregne I, U, R eller P? Tryk bogstavet eller et andet for at stoppe")
