@@ -8,3 +8,7 @@ files:
   visible: true
 - name: tests/__init__.py
   visible: false
+- name: Pycharm_project.jpg
+  visible: true
+- name: Pycharm_file.jpg
+  visible: true
