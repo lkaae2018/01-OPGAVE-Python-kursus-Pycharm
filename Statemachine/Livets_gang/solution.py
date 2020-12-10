@@ -3,15 +3,28 @@ import time
 
 y=0
 tid=1
+week=5
+def weekend():
+    print("Weekend i 2 dage")
+    x="wake"
+    return Home(x)
 
 def Home(x):
+    global week
     global y
     global tid
-    y=y+1
-    print("Y="+str(y))
+
+    if week==0:
+        y+=2
+        week=5
+        return weekend()
+
     if y==50:
         return
     if x=="wake":
+        y+=1
+        week-=1
+        print("Dag=",y)
         x="take train"
         print("Tager toget på arbejde")
         time.sleep(tid)

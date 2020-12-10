@@ -1,4 +1,5 @@
 import random
+import terning
 # Lav en program hvor du spiller terning imod maskinen
 # Den er først vinder 10 gange skal stoppe spillet
 # der skal trykkes på en tast mellem terning kast

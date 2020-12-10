@@ -19,10 +19,12 @@ files:
 - name: Terning_spil.py
   visible: true
   placeholders:
-  - offset: 575
+  - offset: 590
     length: 31
     placeholder_text: Skriv der restende program her!
 - name: Farver.py
   visible: true
 - name: Help.py
+  visible: true
+- name: terning.py
   visible: true
