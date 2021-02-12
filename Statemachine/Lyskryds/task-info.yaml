@@ -10,5 +10,11 @@ files:
   visible: false
 - name: tl.png
   visible: true
+- name: Date_file.py
+  visible: true
+- name: Lyskryds 5 states med cam.jpg
+  visible: true
+- name: Gmail_att_emty.py
+  visible: true
 - name: Lyskryds_RPI.py
   visible: true

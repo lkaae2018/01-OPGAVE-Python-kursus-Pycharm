@@ -9,7 +9,6 @@ content:
 - Intro
 - Variabler
 - Strings
-- Opgaver1
 - Betingelser
 - Loops
 - Funktioner
@@ -17,4 +16,3 @@ content:
 - Opgave 2
 - Statemachine
 - File_write
-- Thingspeak

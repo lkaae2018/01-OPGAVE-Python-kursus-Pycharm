@@ -28,3 +28,7 @@ files:
   visible: true
 - name: terning.py
   visible: true
+- name: Spille maskine.jpg
+  visible: true
+- name: Ohms lov.jpg
+  visible: true

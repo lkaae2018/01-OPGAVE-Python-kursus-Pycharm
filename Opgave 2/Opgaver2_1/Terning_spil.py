@@ -29,15 +29,8 @@ while True:
     menu()
     if x>y:
         Dig +=1
-    elif y>x:
-        Maskine += 1
-    else:
-        print("I slog samme tal!")
+    #Skriv resten af koden
     #menu()
     print("Dig",x,"Maskine",y)
     if Dig==10 or Maskine==10:
-        if Dig==10:
-            print("Du vandt!!", Dig, "mod", Maskine)
-        else:
-            print("Makinen vandt!",Maskine,"mod dine", Dig)
-        break
+    #Skriv resten af koden
