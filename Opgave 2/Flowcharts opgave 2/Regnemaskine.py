@@ -14,17 +14,18 @@ menu()
 
 while True:
 
-    while operator=="+":
+    if operator=="+":
 
-    while operator=="-":
+    elif operator=="-":
 
-    while operator=="*":
+    elif operator=="*":
 
-    while operator=="/":
+    elif operator=="/":
 
 
-    while operator !="-" or operator!= "+" or operator!= "*" or operator!= "/":
-        print("Ingen af tegnene valgt")
-        print("Programmet stopper!")
-        exit(0)
+    else:
+        if operator !="-" or operator!= "+" or operator!= "*" or operator!= "/":
+            print("Ingen af tegnene valgt")
+            print("Programmet stopper!")
+            exit(0)
 
